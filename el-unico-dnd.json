@@ -1,0 +1,226 @@
+{
+  "id": "el-unico-dnd-gdc",
+  "title": "El Unico DnD GDC",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Este modulo e un compendio de Reglas modificadas para el uso personal en las campañas del Gremio Dragón Celeste para el sistema de 5e de Dnd",
+  "authors": [
+    {
+      "name": "Skylaw",
+      "email": "skylaw6@hotmail.com",
+      "url": "a",
+      "discord": "skylaw",
+      "flags": {}
+    },
+    {
+      "name": "Alumarth",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "personajes-pregenerados",
+      "label": "Personajes Pregenerados",
+      "path": "packs/personajes-pregenerados",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "monstruos",
+      "label": "Monstruos",
+      "path": "packs/monstruos",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "cartas",
+      "label": "Cartas",
+      "path": "packs/cartas",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "linajes",
+      "label": "Linajes",
+      "path": "packs/linajes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "rasgos-de-linaje",
+      "label": "Rasgos de Linaje",
+      "path": "packs/rasgos-de-linaje",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "clases",
+      "label": "Clases",
+      "path": "packs/clases",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "rasgos-de-clase",
+      "label": "Rasgos de Clase",
+      "path": "packs/rasgos-de-clase",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "subclases",
+      "label": "Subclases",
+      "path": "packs/subclases",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "trasfondos",
+      "label": "Trasfondos",
+      "path": "packs/trasfondos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "dotes",
+      "label": "Dotes",
+      "path": "packs/dotes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "conjuros",
+      "label": "Conjuros",
+      "path": "packs/conjuros",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "objetos",
+      "label": "Objetos",
+      "path": "packs/objetos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "mercancias",
+      "label": "Mercancias",
+      "path": "packs/mercancias",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "rasgos-de-monstruos",
+      "label": "Rasgos de Monstruos",
+      "path": "packs/rasgos-de-monstruos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "reglas",
+      "label": "Reglas",
+      "path": "packs/reglas",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "tablas",
+      "label": "Tablas",
+      "path": "packs/tablas",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
