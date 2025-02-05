@@ -1,3 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
 packs/** binary
+* text=auto
+*.json text eol=lf
+
