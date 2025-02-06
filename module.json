@@ -237,13 +237,13 @@
         "name": "Personajes",
         "sorting": "m",
         "color": "#030e5e",
-        "packs": ["linajes","rasgos-de-linaje","trasfondos","clases","rasgos-de-clase","name": "subclases","dotes"]
+        "packs": ["linajes","rasgos-de-linaje","trasfondos","clases","rasgos-de-clase", "subclases","dotes"]
       },
       {
         "name": "Monstruos",
         "sorting": "a",
         "color": "#030e5e",
-        "packs": ["monstruos","rasgos-de-monstruos"],
+        "packs": ["monstruos","rasgos-de-monstruos"]
       },
          {
         "name": "Objetos y Conjuros",
