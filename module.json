@@ -35,7 +35,7 @@
   "packs": [
     {
       "name": "personajes-pregenerados",
-      "label": "Personajes Pregenerados",
+      "label": "Personajes Pregenerados (EUD)",
       "path": "packs/personajes-pregenerados",
       "type": "Actor",
       "ownership": {
@@ -47,7 +47,7 @@
     },
     {
       "name": "monstruos",
-      "label": "Monstruos",
+      "label": "Monstruos (EUD)",
       "path": "packs/monstruos",
       "type": "Actor",
       "ownership": {
@@ -59,7 +59,7 @@
     },
     {
       "name": "cartas",
-      "label": "Cartas",
+      "label": "Cartas (EUD)",
       "path": "packs/cartas",
       "type": "Cards",
       "ownership": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "linajes",
-      "label": "Linajes",
+      "label": "Linajes (EUD)",
       "path": "packs/linajes",
       "type": "Item",
       "ownership": {
@@ -83,7 +83,7 @@
     },
     {
       "name": "rasgos-de-linaje",
-      "label": "Rasgos de Linaje",
+      "label": "Rasgos de Linaje (EUD)",
       "path": "packs/rasgos-de-linaje",
       "type": "Item",
       "ownership": {
@@ -95,7 +95,7 @@
     },
     {
       "name": "clases",
-      "label": "Clases",
+      "label": "Clases (EUD)",
       "path": "packs/clases",
       "type": "Item",
       "ownership": {
@@ -107,7 +107,7 @@
     },
     {
       "name": "rasgos-de-clase",
-      "label": "Rasgos de Clase",
+      "label": "Rasgos de Clase (EUD)",
       "path": "packs/rasgos-de-clase",
       "type": "Item",
       "ownership": {
@@ -119,7 +119,7 @@
     },
     {
       "name": "subclases",
-      "label": "Subclases",
+      "label": "Subclases (EUD)",
       "path": "packs/subclases",
       "type": "Item",
       "ownership": {
@@ -131,7 +131,7 @@
     },
     {
       "name": "trasfondos",
-      "label": "Trasfondos",
+      "label": "Trasfondos (EUD)",
       "path": "packs/trasfondos",
       "type": "Item",
       "ownership": {
@@ -143,7 +143,7 @@
     },
     {
       "name": "dotes",
-      "label": "Dotes",
+      "label": "Dotes (EUD)",
       "path": "packs/dotes",
       "type": "Item",
       "ownership": {
@@ -155,7 +155,7 @@
     },
     {
       "name": "conjuros",
-      "label": "Conjuros",
+      "label": "Conjuros (EUD)",
       "path": "packs/conjuros",
       "type": "Item",
       "ownership": {
@@ -167,7 +167,7 @@
     },
     {
       "name": "objetos",
-      "label": "Objetos",
+      "label": "Objetos (EUD)",
       "path": "packs/objetos",
       "type": "Item",
       "ownership": {
@@ -179,7 +179,7 @@
     },
     {
       "name": "mercancias",
-      "label": "Mercancias",
+      "label": "Mercancias (EUD)",
       "path": "packs/mercancias",
       "type": "Item",
       "ownership": {
@@ -191,7 +191,7 @@
     },
     {
       "name": "rasgos-de-monstruos",
-      "label": "Rasgos de Monstruos",
+      "label": "Rasgos de Monstruos (EUD)",
       "path": "packs/rasgos-de-monstruos",
       "type": "Item",
       "ownership": {
@@ -203,7 +203,7 @@
     },
     {
       "name": "reglas",
-      "label": "Reglas",
+      "label": "Reglas (EUD)",
       "path": "packs/reglas",
       "type": "JournalEntry",
       "ownership": {
@@ -215,7 +215,7 @@
     },
     {
       "name": "tablas",
-      "label": "Tablas",
+      "label": "Tablas (EUD)",
       "path": "packs/tablas",
       "type": "RollTable",
       "ownership": {
@@ -225,5 +225,33 @@
       "system": "dnd5e",
       "flags": {}
     }
-  ]
+  ],
+  "packFolders": [
+  {
+    "name": "El único DnD",
+    "sorting": "m",
+    "color": "#030e5e",
+    "packs": ["personajes-pregenerados","cartas","reglas","tablas"],
+    "folders": [
+      {
+        "name": "Personajes",
+        "sorting": "m",
+        "color": "#030e5e",
+        "packs": ["linajes","rasgos-de-linaje","trasfondos","clases","rasgos-de-clase","name": "subclases","dotes"]
+      },
+      {
+        "name": "Monstruos",
+        "sorting": "a",
+        "color": "#030e5e",
+        "packs": ["monstruos","rasgos-de-monstruos"]
+      },
+         {
+        "name": "Objetos y Conjuros",
+        "sorting": "a",
+        "color": "#030e5e",
+        "packs": ["conjuros","objetos","mercancias"]
+      }
+    ]
+  }
+]
 }
