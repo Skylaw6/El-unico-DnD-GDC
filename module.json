@@ -3,7 +3,7 @@
   "title": "El Unico DnD GDC",
   "version": "0.0.2",
   "manifest": "https://raw.githubusercontent.com/Skylaw6/El-unico-DnD-GDC/main/module.json",
-    "download": "https://github.com/Skylaw6/El-unico-DnD-GDC/archive/refs/tags/0.0.2.zip",
+  "download": "https://github.com/Skylaw6/El-unico-DnD-GDC/archive/refs/tags/0.0.2.zip",
   "url": "https://github.com/Skylaw6/El-unico-DnD-GDC",
   "compatibility": {
     "minimum": "12",
