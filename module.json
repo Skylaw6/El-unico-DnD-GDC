@@ -243,7 +243,7 @@
         "name": "Monstruos",
         "sorting": "a",
         "color": "#030e5e",
-        "packs": ["monstruos","rasgos-de-monstruos"]
+        "packs": ["monstruos","rasgos-de-monstruos"],
       },
          {
         "name": "Objetos y Conjuros",
