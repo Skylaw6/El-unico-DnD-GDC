@@ -4,7 +4,9 @@
   "version": "0.0.2",
   "manifest": "https://raw.githubusercontent.com/Skylaw6/El-unico-DnD-GDC/main/module.json",
   "url": "https://github.com/Skylaw6/El-unico-DnD-GDC",
-  "system": ["dnd5e"],
+  "system": [
+    "dnd5e"
+  ],
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -227,31 +229,51 @@
     }
   ],
   "packFolders": [
-  {
-    "name": "El único DnD",
-    "sorting": "m",
-    "color": "#030e5e",
-    "packs": ["personajes-pregenerados","cartas","reglas","tablas"],
-    "folders": [
-      {
-        "name": "Personajes",
-        "sorting": "m",
-        "color": "#030e5e",
-        "packs": ["linajes","rasgos-de-linaje","trasfondos","clases","rasgos-de-clase", "subclases","dotes"]
-      },
-      {
-        "name": "Monstruos",
-        "sorting": "a",
-        "color": "#030e5e",
-        "packs": ["monstruos","rasgos-de-monstruos"]
-      },
-         {
-        "name": "Objetos y Conjuros",
-        "sorting": "a",
-        "color": "#030e5e",
-        "packs": ["conjuros","objetos","mercancias"]
-      }
-    ]
-  }
-]
+    {
+      "name": "El único DnD",
+      "sorting": "m",
+      "color": "#030e5e",
+      "packs": [
+        "personajes-pregenerados",
+        "cartas",
+        "reglas",
+        "tablas"
+      ],
+      "folders": [
+        {
+          "name": "Personajes",
+          "sorting": "m",
+          "color": "#030e5e",
+          "packs": [
+            "linajes",
+            "rasgos-de-linaje",
+            "trasfondos",
+            "clases",
+            "rasgos-de-clase",
+            "subclases",
+            "dotes"
+          ]
+        },
+        {
+          "name": "Monstruos",
+          "sorting": "a",
+          "color": "#030e5e",
+          "packs": [
+            "monstruos",
+            "rasgos-de-monstruos"
+          ]
+        },
+        {
+          "name": "Objetos y Conjuros",
+          "sorting": "a",
+          "color": "#030e5e",
+          "packs": [
+            "conjuros",
+            "objetos",
+            "mercancias"
+          ]
+        }
+      ]
+    }
+  ]
 }
