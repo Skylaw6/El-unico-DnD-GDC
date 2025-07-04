@@ -1,7 +1,7 @@
 {
   "id": "el-unico-dnd-gdc",
   "title": "El Unico DnD GDC",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest": "https://raw.githubusercontent.com/Skylaw6/El-unico-DnD-GDC/main/module.json",
   "url": "https://github.com/Skylaw6/El-unico-DnD-GDC",
   "system": [
@@ -9,7 +9,7 @@
   ],
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "relationships": {
     "systems": [
