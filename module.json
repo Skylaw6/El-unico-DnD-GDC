@@ -1,7 +1,7 @@
 {
   "id": "el-unico-dnd-gdc",
   "title": "El Unico DnD GDC",
-  "version": "0.0.3",
+  "version": "0.5",
   "manifest": "https://raw.githubusercontent.com/Skylaw6/El-unico-DnD-GDC/main/module.json",
   "url": "https://github.com/Skylaw6/El-unico-DnD-GDC",
   "system": [
@@ -72,21 +72,9 @@
       "flags": {}
     },
     {
-      "name": "linajes",
-      "label": "Linajes (EUD)",
-      "path": "packs/linajes",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "rasgos-de-linaje",
-      "label": "Rasgos de Linaje (EUD)",
-      "path": "packs/rasgos-de-linaje",
+      "name": "especies",
+      "label": "Especies (EUD)",
+      "path": "packs/especies.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -108,21 +96,9 @@
       "flags": {}
     },
     {
-      "name": "rasgos-de-clase",
-      "label": "Rasgos de Clase (EUD)",
-      "path": "packs/rasgos-de-clase",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "subclases",
-      "label": "Subclases (EUD)",
-      "path": "packs/subclases",
+      "name": "bastiones",
+      "label": "Bastiones (EUD)",
+      "path": "packs/bastiones.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -235,6 +211,7 @@
       "color": "#030e5e",
       "packs": [
         "personajes-pregenerados",
+        "bastiones",
         "cartas",
         "reglas",
         "tablas"
@@ -245,12 +222,9 @@
           "sorting": "m",
           "color": "#030e5e",
           "packs": [
-            "linajes",
-            "rasgos-de-linaje",
+            "especies",
             "trasfondos",
             "clases",
-            "rasgos-de-clase",
-            "subclases",
             "dotes"
           ]
         },
